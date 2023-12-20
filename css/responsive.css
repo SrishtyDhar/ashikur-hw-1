@@ -1,0 +1,112 @@
+/* menu */
+@media(min-width: 320px) and (max-width: 800px){
+    nav{
+        background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+    }
+    /* banner */
+    @media(max-width: 991px){
+
+        .banner-text h4 {
+            font-size: 15px;
+        }
+        .banner-text h1 {
+            font-size: 34px;
+        }
+        .banner-text h4 svg {
+            width: 16px;
+            height: 16px;
+        }
+        .banner-text p{
+           font-size: 15px;
+           line-height: 190%; 
+        }
+        #banner .banner-text .button{
+            margin-right: 12px;
+        }
+        .banner-text a svg{
+            width: 12px;
+            height: 12px;
+        }
+        #social{
+            padding-top: 50px;
+        }
+        #social h4{
+        font-size: 16px;            
+        }
+        #social ul li{
+            width: 16px;
+            height: 16px;
+            margin-right: 18px;
+        }
+    
+    #banner .banner-img img{
+        max-width: 100%;
+        padding-top: 50px;
+    }
+}
+/* about */
+@media(min-width:320px) and (max-width:991px){
+    #about .about-img img{
+        max-width: 100%;
+        transform: scaleX(-1);
+    }
+    #about h3{
+        padding-top: 40px;
+        font-size: 24px;
+    }
+    #about p{
+        font-size: 15px;
+        line-height: 165%; /* 24.75px */
+    }
+    #about .text{
+        color: #353535;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 180%; 
+    }
+    #about{
+        max-width: 100%;
+    }
+    
+}
+/* service */
+@media(min-width:320px) and (max-width:991px){
+    #service .service-img img{
+        width: 41.385px;
+height: 42.605px;
+text-align: right;
+padding: 0 0 0 0;
+    }
+    #service .service-img{
+        max-width: 100%;
+    }
+    #service .service-card .row{
+        max-width: 100%;
+    }
+    #service .service-card{
+        width: 343px;
+        height: 156px;
+     text-align: left;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    #service .pixel{
+        margin-top: 79px;
+    }
+    .service-text h5{
+font-size: 14px;
+padding: 0 0 0 0;
+    }
+    .service-text p{
+        color: #7A7A7A;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 174%;
+padding: 0 0 0 0;
+    }
+}
